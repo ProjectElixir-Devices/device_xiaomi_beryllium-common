@@ -21,6 +21,9 @@ include build/make/target/product/iorap_large_memory_config.mk
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Enforce RRO targets
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
     Settings \
