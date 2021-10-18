@@ -604,7 +604,7 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|0119fa4d87505bc5d9426ec8ff
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|c7c418cfc889a89ea4f21bf828f626c75a2017c3
 
 # Power-off charging daemon
-system/bin/charger:system/bin/chargeonlymode|69b29c2c7b7c65a0d8fd26c2a56f6211e2795fc5
+system/bin/charger:system/bin/chargeonlymode|2651cf8d393ede6fb9a07f56d5006fc3756cf065
 
 # QMI - from PNX_00WW_FIH - RKQ1.200906.002-00WW_6_210
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
