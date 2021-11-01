@@ -92,6 +92,7 @@ ril.subscription.types=NV,RUIM
 ro.telephony.default_network=22,22
 ro.telephony.iwlan_operation_mode=legacy
 telephony.lteOnCdmaDevice=1
+persist.sys.fflag.override.settings_provider_model=false
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
