@@ -7,7 +7,7 @@
 BOARD_VENDOR := xiaomi
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-
+SELINUX_IGNORE_NEVERALLOWS := true
 COMMON_PATH := device/xiaomi/sdm845-common
 
 # Architecture
