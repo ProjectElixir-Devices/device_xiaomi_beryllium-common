@@ -1,1 +1,5 @@
+#============= kernel ==============
 allow kernel debugfs_wlan:dir search;
+
+allow kernel kernel:capability { kill };
+
