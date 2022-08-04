@@ -85,7 +85,7 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
-vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam
+vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,org.lineageos.snap,org.pixelexperience.faceunlock
 
 # Charger
 ro.charger.enable_suspend=true
