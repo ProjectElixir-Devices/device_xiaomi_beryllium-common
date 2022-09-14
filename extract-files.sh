@@ -50,6 +50,9 @@ function blob_fixup() {
         vendor/lib/camera/components/com.mi.node.watermark.so)
             "${PATCHELF}" --add-needed "lib-watermarkshim.so" "${2}"
             ;;
+        vendor/bin/mlipayd@1.1 | vendor/lib64/libmlipay.so | vendor/lib64/libmlipay@1.1.so )
+            "${PATCHELF}" --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "${2}"
+            ;;
     esac
 }
 
