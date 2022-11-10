@@ -37,9 +37,9 @@ public final class ThermalUtils {
     protected static final int STATE_BALANCED = 2;
     protected static final int STATE_GAMING = 3;
 
-    private static final String THERMAL_STATE_DEFAULT = "0";
-    private static final String THERMAL_STATE_BATTERY = "8";
-    private static final String THERMAL_STATE_BALANCED = "12";
+    private static final String THERMAL_STATE_DEFAULT = "12";
+    private static final String THERMAL_STATE_BATTERY = "0";
+    private static final String THERMAL_STATE_BALANCED = "8";
     private static final String THERMAL_STATE_GAMING = "10";
 
     private static final String THERMAL_BALANCED = "thermal.camera=";

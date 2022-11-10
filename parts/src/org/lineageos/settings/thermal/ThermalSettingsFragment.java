@@ -196,12 +196,12 @@ public class ThermalSettingsFragment extends PreferenceFragment
 
     private int getStateDrawable(int state) {
         switch (state) {
-            case ThermalUtils.STATE_BALANCED:
-                return R.drawable.ic_thermal_camera;
             case ThermalUtils.STATE_BATTERY:
-                return R.drawable.ic_thermal_dialer;
+                return R.drawable.ic_thermal_battery;
+            case ThermalUtils.STATE_BALANCED:
+                return R.drawable.ic_thermal_balanced;
             case ThermalUtils.STATE_GAMING:
-                return R.drawable.ic_thermal_gaming;
+                return R.drawable.ic_thermal_performance;
             case ThermalUtils.STATE_DEFAULT:
             default:
                 return R.drawable.ic_thermal_default;
@@ -232,8 +232,8 @@ public class ThermalSettingsFragment extends PreferenceFragment
         private final LayoutInflater inflater;
         private final int[] items = {
                 R.string.thermal_default,
-                R.string.thermal_camera,
                 R.string.thermal_dialer,
+                R.string.thermal_camera,
                 R.string.thermal_gaming,
         };
 

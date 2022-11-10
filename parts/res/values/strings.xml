@@ -79,9 +79,9 @@
     <string name="thermal_title">Per-app Thermal profiles</string>
     <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
     <string name="thermal_default">No Optimization</string>
-    <string name="thermal_camera">Balance</string>
     <string name="thermal_dialer">Battery</string>
-    <string name="thermal_gaming">Max Performance</string>
+    <string name="thermal_camera">Balance</string>
+    <string name="thermal_gaming">Performance</string>
 
     <!-- Raise to wake strings-->
     <string name="raise_to_wake_gesture_title">Raise to wake</string>
