@@ -97,6 +97,8 @@ bluetooth.profile.sap.server.enabled?=true
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
 persist.bluetooth.a2dp_offload.disabled=false
 vendor.qcom.bluetooth.soc=cherokee
+persist.bt.enableAptXHD=true
+persist.service.btui.use_aptx=1
 
 # Camera
 vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,org.lineageos.snap,org.pixelexperience.faceunlock
