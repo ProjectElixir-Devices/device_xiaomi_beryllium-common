@@ -1,3 +1,6 @@
+allow rild diag_device:chr_file rw_file_perms;
+allow rild diag_device:chr_file { read write };
+
 dontaudit rild tombstone_data_file:dir search;
 dontaudit rild vendor_file:file ioctl;
 
